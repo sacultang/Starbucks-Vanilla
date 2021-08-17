@@ -7,9 +7,9 @@
     <meta property="og:image" content="./images/starbucks_seo.jpg" />
     <meta property="og:url" content="https://starbucks.co.kr" />
     
-og:type: 페이지의 유형(E.g, website, video.movie)
-og:site_name: 속한 사이트의 이름
-og:title: 페이지의 이름(제목)
-og:description: 페이지의 간단한 설명
-og:image: 페이지의 대표 이미지 주소(URL)
-og:url: 페이지 주소(URL)
++ og:type: 페이지의 유형(E.g, website, video.movie)
++ og:site_name: 속한 사이트의 이름
++ og:title: 페이지의 이름(제목)
++ og:description: 페이지의 간단한 설명
++ og:image: 페이지의 대표 이미지 주소(URL)
++ og:url: 페이지 주소(URL)
