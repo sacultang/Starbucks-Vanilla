@@ -13,3 +13,5 @@
 + og:description: 페이지의 간단한 설명
 + og:image: 페이지의 대표 이미지 주소(URL)
 + og:url: 페이지 주소(URL)
+
+    flex-grow : 최대한 늘어나라
