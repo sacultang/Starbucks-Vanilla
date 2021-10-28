@@ -15,3 +15,16 @@
 + og:url: 페이지 주소(URL)
 
     flex-grow : 최대한 늘어나라
+
+
+** padding-top 을 퍼센트로 지정하면 부모요소의 너비값에 영향을 받음
+16:9 비율 padding-top : 56.25%
+
+## 랜덤한 숫자를 생성하는 함수
+ 
+    // 범위 랜덤 함수(소수점 2자리까지)
+    function random(min ,max){
+        // ',toFixed()'를 통해 반환된 문자 데이터를,
+        // 'parseFloat()'를 통해 소수점을 가지는 숫자 데이터로 변환
+        return parseFloat((Math.random() * (max - min) + min).toFixed(2))
+    }
