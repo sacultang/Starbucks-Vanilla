@@ -37,11 +37,13 @@
 
   <link rel="stylesheet" href="../css/common.css" />
   <link rel="stylesheet" href="../css/signin.css" />
+  <link rel="stylesheet" href="../css/map.css" />
   <link rel="stylesheet" href="../css/main.css" />
 
   <script defer src="../js/common.js"></script>
   <script defer src="../js/map.js"></script>
-  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2fa9b8c58653782394d310fdbe3e417a"></script>
+  
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2fa9b8c58653782394d310fdbe3e417a&libraries=services"></script>
 </head>
 <body>
 
@@ -364,8 +366,8 @@
         </div>
     </header>
     <!-- 헤더 끝 -->
-    <section>
-        <div id="map" style="width:500px;height:400px;"></div>
+    <section class="kakao-map">
+        <div id="map" ></div>
     </section>
 
     <!-- FOOTER -->

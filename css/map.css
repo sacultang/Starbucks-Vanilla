@@ -1,0 +1,8 @@
+.kakao-map {
+    width: 100%;
+    height: 700px;
+}
+.kakao-map #map {
+    width: 100%;
+    height: 100%;
+}
