@@ -28,3 +28,8 @@
         // 'parseFloat()'를 통해 소수점을 가지는 숫자 데이터로 변환
         return parseFloat((Math.random() * (max - min) + min).toFixed(2))
     }
+    
+Opacity 속성처럼 값을 숫자로 입력하는 속성들은 전환 효과(transition이나 GSAP라이브러리 등)를 통해
+요소의 전/후 상태를 중간 숫자의 값으로 자연스럽게 만들어 줄 수 있지만
+display 속성처럼 값이 숫자가 아닌 속성은 전/후 상태의 중간값이 존재하지 않기 때문에
+자연스러운 전환 효과를 적용 할 수 없다.
