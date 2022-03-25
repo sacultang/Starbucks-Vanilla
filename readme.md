@@ -39,3 +39,16 @@ Opacity 속성처럼 값을 숫자로 입력하는 속성들은 전환 효과(tr
 요소의 전/후 상태를 중간 숫자의 값으로 자연스럽게 만들어 줄 수 있지만
 display 속성처럼 값이 숫자가 아닌 속성은 전/후 상태의 중간값이 존재하지 않기 때문에
 자연스러운 전환 효과를 적용 할 수 없다.
+
+## Swiper JS
+    // new Swiper('선택자',{옵션
+        direction : 가로 세로
+        autoplay :{
+            delay: ms
+        }
+        loop : true, false
+        slidesPerView : 한 번에 보여줄 슬라이드 개수
+        spaceBetween : 슬라이드 사이 여백
+        centeredSlides : true, false // 1번 슬라이드가 가운데 보이기
+    })
+    
