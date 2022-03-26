@@ -15,7 +15,8 @@ function onYouTubeIframeAPIReady() {
         playerVars : {
             autoplay: true, //자동 재생 유무
             loop: true, // 반복 재생 유무
-            playlist:'OdFr7wd-DWA' // 반복 재생할 유튜브 영상 ID 목록
+            playlist:'OdFr7wd-DWA', // 반복 재생할 유튜브 영상 ID 목록
+            origin:'https://confident-hoover-5f75a6.netlify.app/'
         },
         events : {
             onReady: function(event){
