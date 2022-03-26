@@ -108,9 +108,11 @@ promotionToggleBtn.addEventListener('click', function(){
     if (isHidePromotion){
         //숨김 처리!
         promotionEl.classList.add('hide');
+        promotionToggleBtn.innerHTML = '<div class="material-icons">download</div>'
     } else {
         //보임 처리
         promotionEl.classList.remove('hide');
+        promotionToggleBtn.innerHTML = '<div class="material-icons">upload</div>'
     }
 })
 function random(min ,max){

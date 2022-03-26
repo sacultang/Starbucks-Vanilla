@@ -167,6 +167,7 @@
     transition: height .4s;
 }
 
+
 .notice .promotion.hide {
     height: 0;
 }
